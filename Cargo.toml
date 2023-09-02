@@ -1,0 +1,12 @@
+[package]
+name = "opm"
+version = "0.1.0"
+edition = "2021"
+description = "A Blazingly Fast, Multithreaded, Lightweight Package Manager. The Best there is."
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.20", features = ["json"] }
+tokio = { version = "1.32.0", features = ["full"] }
+serde = {serde = "1.0.188", features = ["derive"]}
+serde_json = "1.0.89"
